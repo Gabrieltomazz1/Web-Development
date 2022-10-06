@@ -1,14 +1,198 @@
-:root {
-    --body-bg-color: #22212C;
-    --text-color: white;
-    --bg-cards: #302F3D;
-    --bg-techs: #CB92B1;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;900&family=Merriweather+Sans&display=swap');
+
+* {
+  position: relative;
+
+  box-sizing: border-box;
+
+  font-family: 'Merriweather Sans';
 }
 
 body {
-    font-family: 'Merriweather Sans', sans-serif;
-    background-color: #22212C;
+  background: #22212c;
+}
+.profile {
+  position: absolute;
+  width: 348px;
+  height: 292px;
+  left: 40px;
+  top: 40px;
+
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
+.profile img {
+  box-sizing: border-box;
 
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 110px;
+  top: 40px;
 
+  border: 2px solid #00ff00;
+  border-radius: 50%;
+}
+
+.profile h1 {
+  position: absolute;
+  width: 196px;
+  height: 26px;
+  left: 80px;
+  top: 160px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+
+  color: #837e9f;
+}
+
+.profile p {
+  position: absolute;
+  width: 128px;
+  height: 17px;
+  left: 110px;
+  top: 15em;
+
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #837e9f;
+}
+
+/* Fim do header */
+
+/* Inicio da projetos */
+
+.projects {
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  left: 448px;
+  top: 40px;
+
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.projects h2 {
+  position: absolute;
+  width: 121px;
+  height: 26px;
+  left: 50px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #837e9f;
+}
+
+.projects p {
+  position: absolute;
+  width: 70px;
+  height: 18px;
+  left: 800px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #837e9f;
+}
+
+/* Fim projetos */
+
+/* Inicio Informações */
+
+.info {
+  position: absolute;
+  width: 348px;
+  height: 230px;
+  left: 40px;
+  top: 362px;
+
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.info p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  bottom: 7px;
+  left: 10px;
+
+  display: inline;
+  color: #837e9f;
+}
+
+.info li {
+  list-style: none;
+}
+
+/* Fim da info */
+
+/* Inicio das techs */
+
+.tech {
+  width: 348px;
+  height: 208px;
+  left: 40px;
+  top: 620px;
+
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.tech h1 {
+  width: 121px;
+  height: 26px;
+  left: 20px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #837e9f;
+}
+.tech p {
+  width: 86px;
+  height: 11px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.tech span {
+  width: 5px;
+  height: 24px;
+  left: 40px;
+
+  background: #cb92b1;
+  border-radius: 30px;
+}
