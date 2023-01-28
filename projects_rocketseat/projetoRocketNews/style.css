@@ -1,0 +1,150 @@
+* {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
+
+body {
+  background: #121214;
+}
+
+header img {
+  position: absolute;
+  width: 389px;
+  height: 94px;
+  left: 30px;
+  top: 50px;
+}
+
+.content h2 {
+  position: absolute;
+  width: 566px;
+  height: 30.44px;
+  left: 36px;
+  top: 236px;
+
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #08c05e;
+}
+
+.content p {
+  position: absolute;
+  width: 517px;
+  height: 16px;
+  left: 36px;
+  top: 275px;
+
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.content span {
+  position: absolute;
+  width: 647px;
+  height: 38px;
+  left: 36px;
+  top: 300px;
+
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.form {
+  position: absolute;
+  width: 798px;
+  height: 84px;
+  left: 36px;
+  top: 388px;
+}
+
+.form label {
+  display: block;
+
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+  /* or 19px */
+
+  color: #a8a8a8;
+}
+
+.form input {
+  position: absolute;
+  width: 750px;
+  height: 48px;
+
+  background: #ffffff;
+
+  filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+  border: 2px solid #ffffff;
+}
+
+.form button {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 702px;
+
+  filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+  background: #8257e5;
+  border: 2px solid #ffffff;
+}
+
+.end {
+  position: absolute;
+  width: 167px;
+  height: 19px;
+  left: 36px;
+  top: 524px;
+
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+  /* or 19px */
+
+  /* Purple */
+
+  color: #8257e5;
+}
+
+.container {
+  z-index: 1;
+}
+
+.left img {
+  position: 50%;
+  width: 110vh;
+  height: 100vh;
+  left: 700px;
+
+
+  margin: 0 auto;
+}

@@ -1,0 +1,50 @@
+{
+  "contacts": [
+    {
+      "id": "A1234bzC",
+      "photo": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png",
+      "name": "Gabriel",
+      "mobile": "35992687292",
+      "email": "gabriel.silva.tomaz@outlook.com",
+      "company": "ByMySelf",
+      "title": "Software Engineer",
+      "groupId": "1"
+    },
+    {
+      "name": "Antonio Joaquim",
+      "photo": "",
+      "mobile": "21432431243",
+      "email": "antonio.joaquim@gmail.com",
+      "company": "AJ Enterprises",
+      "title": "Software Engenier",
+      "groupId": "2",
+      "id": "vlMOrD3"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Family"
+    },
+    {
+      "id": "3",
+      "name": "Friends"
+    },
+    {
+      "id": "4",
+      "name": "Work"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ]
+}
