@@ -27,7 +27,7 @@ const EditContact = () => {
     useEffect(() => {
         async function fetchData() {
             try {
-                setState({ ...state, loading: true });
+                setState({ ...state, loading: false });
                 let response = await ContactService.getContact(contactId);
                 let groupResponse = await ContactService.getGroups();
                 setState({
@@ -46,8 +46,6 @@ const EditContact = () => {
         }
         fetchData();
     }, [contactId]);
-
-
 
 
     let updateInpute = (event) => {
@@ -70,7 +68,7 @@ const EditContact = () => {
                 }
             } catch (error) {
                 setState({ ...state, errorMessage: error.message });
-                navigate('/contacts/edit', { replace: false });
+                navigate(`/contacts/edit/${contactId}`, { replace: false });
             }
         }
         fetchData();
