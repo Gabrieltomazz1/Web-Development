@@ -9,28 +9,38 @@
       "title": "Software Developer",
       "groupId": "2",
       "id": 1
+    },
+    {
+      "name": "Gabriel Tomaz",
+      "photo": "",
+      "mobile": "35992687292",
+      "email": "gabriel.silva.tomaz@outlook.com",
+      "company": "",
+      "title": "",
+      "groupId": "2",
+      "id": 2
     }
   ],
   "groups": [
     {
       "id": "1",
-      "name": "Colleague"
+      "name": "Faculdade"
     },
     {
       "id": "2",
-      "name": "Family"
+      "name": "Familia"
     },
     {
       "id": "3",
-      "name": "Friends"
+      "name": "Amigos"
     },
     {
       "id": "4",
-      "name": "Work"
+      "name": "Trabalho"
     },
     {
       "id": "5",
-      "name": "Community"
+      "name": "Comunidade"
     },
     {
       "id": "6",

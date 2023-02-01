@@ -88,7 +88,7 @@ let ContactList = () => {
                                         <i className='fa fa-plus-circle me-2'></i>
                                         New </Link>
                                 </p>
-                                <p className='fst-italic'>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                                <p className='fst-italic'>Sua lista de contatos, realize uma pesquisa ! ! ! </p>
                             </div>
                         </div>
                         <div className='row'>
