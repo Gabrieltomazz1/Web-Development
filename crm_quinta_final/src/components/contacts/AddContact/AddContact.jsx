@@ -97,7 +97,7 @@ let AddContact = () => {
                                 </div>
                                 <div className="mb-2">
                                     <input
-                                        // required={true}
+                                        required={true}
                                         name="mobile"
                                         value={contact.mobile}
                                         onChange={updateInput}
@@ -105,7 +105,7 @@ let AddContact = () => {
                                 </div>
                                 <div className="mb-2">
                                     <input
-                                        // required={true}
+                                        required={true}
                                         name="email"
                                         value={contact.email}
                                         onChange={updateInput}
@@ -125,11 +125,11 @@ let AddContact = () => {
                                         name="title"
                                         value={contact.title}
                                         onChange={updateInput}
-                                        type="text" className="form-control" placeholder='Title' />
+                                        type="text" className="form-control" placeholder='Formação' />
                                 </div>
                                 <div className="mb-2">
                                     <select
-                                        // required={true}
+                                        required={true}
                                         name="groupId"
                                         value={contact.groupId}
                                         onChange={updateInput}
