@@ -1,5 +1,16 @@
 {
-  "contacts": [],
+  "contacts": [
+    {
+      "name": "Gabriel Tomaz",
+      "photo": "https://s18798.pcdn.co/mavericklimccproject/wp-content/uploads/sites/14030/1986/06/Face-Profile-2-300x200.jpg",
+      "mobile": "35992687292",
+      "email": "gabriel.silva.tomaz@outlook.com",
+      "company": "Aurora Boreal",
+      "title": "Software Developer",
+      "groupId": "2",
+      "id": 1
+    }
+  ],
   "groups": [
     {
       "id": "1",

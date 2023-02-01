@@ -69,17 +69,15 @@ let AddContact = () => {
 
     return (
         <React.Fragment>
-            <section className="add-contact p-3">
-                <div className="container">
+            <section className="add-contact p-3  ">
+                <div className="container d-flex flex-column align-items-center justify-content-center">
                     <div className="row">
                         <div className="col">
                             <p className="h3 text-success">Criar Contataco</p>
-                            <p className="fst-italic">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, ipsa alias! Repellat libero dignissimos ab architecto illum. Magnam minus, voluptates nihil ad exercitationem, id perspiciatis quidem soluta nemo magni quia?</p>
-
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-4 w-100">
                             <form onSubmit={submitForm}>
                                 <div className="mb-2">
                                     <input
@@ -87,7 +85,7 @@ let AddContact = () => {
                                         name="name"
                                         value={contact.name}
                                         onChange={updateInput}
-                                        type="text" className="form-control" placeholder='Nome' />
+                                        type="text" className="form-control " placeholder='Nome' />
                                 </div>
                                 <div className="mb-2">
                                     <input
