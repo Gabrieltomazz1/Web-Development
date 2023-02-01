@@ -84,7 +84,7 @@ const EditContact = () => {
                         <div className="row">
                             <div className="col">
                                 <p className="h3 text-primary">Editar Contataco</p>
-                                <p className="fst-italic">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, ipsa alias! Repellat libero dignissimos ab architecto illum. Magnam minus, voluptates nihil ad exercitationem, id perspiciatis quidem soluta nemo magni quia?</p>
+                                <p className="fst-italic">Alguma alteração no perfil {contact.name}?</p>
 
                             </div>
                         </div>

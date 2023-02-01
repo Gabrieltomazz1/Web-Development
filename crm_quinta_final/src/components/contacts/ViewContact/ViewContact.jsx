@@ -41,12 +41,12 @@ const ViewContact = () => {
 
     return (
         <React.Fragment>
-            <section className="view-contact-intro w-auto  ">
-                <div className="container d-flex flex-column justify-content-center align-items-center">
+            <section className="view-contact-intro p-3 ">
+                <div className="container">
                     <div className="row">
                         <div className="col">
-                            <p className="h3 text-warning fw-bold p-1">Visualizar Contato</p>
-                            <p className="fst-italic">Este é o perfil de {contact.name}, grupo {group.name}</p>
+                            <p className="h3 text-warning fw-bold">Visualizar Contato</p>
+                            <p className="fst-italic">Este é o perfil de {contact.name} grupo {group.name}</p>
                         </div>
                     </div>
                 </div>
@@ -55,10 +55,10 @@ const ViewContact = () => {
                 loading ? <Spinner /> : <React.Fragment>
                     {
                         Object.keys(contact).length > 0 && Object.keys(group).length > 0 &&
-                        <section className="view-contact ">
-                            <div className="container  d-flex flex-column justify-content-center align-items-center ">
-                                <div className="row d-flex flex-column">
-                                    <div className="col-md-4 ">
+                        <section className="view-contact mt-3 ">
+                            <div className="container">
+                                <div className="row align-items-center ms-5 ">
+                                    <div className="col-md-4">
                                         <img src={contact.photo} alt="" className='img-fluid contact-img' />
                                     </div>
                                     <div className="col-md-8">
@@ -84,7 +84,7 @@ const ViewContact = () => {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="row my-2">
+                                <div className="row">
                                     <div className="col">
                                         <Link to={'/contacts/list'} className="btn btn-warning" >Voltar</Link>
                                     </div>
