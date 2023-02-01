@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ContactService } from '../../../services/ContactService';
 
+
+
 let AddContact = () => {
 
     let navigate = useNavigate();
@@ -85,7 +87,8 @@ let AddContact = () => {
                                         name="name"
                                         value={contact.name}
                                         onChange={updateInput}
-                                        type="text" className="form-control " placeholder='Nome' />
+                                        type="text" className="form-control " placeholder="Nome">
+                                    </input>
                                 </div>
                                 <div className="mb-2">
                                     <input
@@ -93,7 +96,7 @@ let AddContact = () => {
                                         name="photo"
                                         value={contact.photo}
                                         onChange={updateInput}
-                                        type="text" className="form-control" placeholder='Link da imagem' />
+                                        type="text" className="form-control " placeholder="photo" />
                                 </div>
                                 <div className="mb-2">
                                     <input
@@ -159,3 +162,4 @@ let AddContact = () => {
 };
 
 export default AddContact
+

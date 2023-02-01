@@ -121,7 +121,7 @@ let ContactList = () => {
                                 filteredContacts.map(contact => {
                                     return (
                                         <div className="col-md-6" key={contact.id}>
-                                            <div className="card">
+                                            <div className="card mt-2">
                                                 <div className="card-body">
                                                     <div className="row align-items-center d-flex justify-content-around">
                                                         <div className="col-md-4">
